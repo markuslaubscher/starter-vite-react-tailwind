@@ -7,37 +7,38 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.jsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+      <div className="flex items-center justify-center h-screen bg-gradient-to-r from-sky-500 to-indigo-500 text-white">
+        <div class="flex flex-wrap text-center">
+          <div class="p-4 sm:w-1/4 w-full">
+            <a
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              React
+            </a>
+          </div>
+          <div class="p-4 sm:w-1/4 w-full">
+            <a
+              href="https://vitejs.dev/guide/features.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Vite
+            </a>
+          </div>
+          <div class="p-4 sm:w-1/4 w-full">
+            <a
+              href="https://tailwindcss.com/docs/installation"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tailwind
+            </a>
+          </div>
+
+        </div>
+      </div>
     </div>
   )
 }
