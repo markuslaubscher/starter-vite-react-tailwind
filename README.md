@@ -1,1 +1,1 @@
-project-vite-react-tailwind
+starter-vite-react-tailwind
